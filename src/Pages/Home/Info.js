@@ -9,18 +9,21 @@ const Info = () => {
     <div className="grid grid-cols-1 lg:grid-cols-3 gap-5">
       <InfoCard
         cardTitle="Opening Hours"
-        className="bg-gradient-to-r from-secondary to-primary"
+        bgClass="bg-gradient-to-r from-secondary to-primary"
         img={clock}
+        text="10:00 AM to 8:00 PM"
       ></InfoCard>
       <InfoCard
         cardTitle="Our Locations"
-        className="bg-neutral"
+        bgClass="bg-neutral"
         img={marker}
+        text="Mirpur 10, Dhaka 1216."
       ></InfoCard>
       <InfoCard
         cardTitle="Contact Us"
-        className="bg-gradient-to-r from-secondary to-primary"
+        bgClass="bg-gradient-to-r from-secondary to-primary"
         img={phone}
+        text=" +8801832549198"
       ></InfoCard>
     </div>
   );
