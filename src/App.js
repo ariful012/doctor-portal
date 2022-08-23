@@ -18,6 +18,9 @@ import RequireAdmin from "./Pages/Login/RequireAdmin";
 import AddDoctor from "./Pages/Dashboard/AddDoctor";
 import ManageDoctors from "./Pages/Dashboard/ManageDoctors";
 import Payment from "./Pages/Dashboard/Payment";
+import ContactUs from "./Pages/ContactUs/ContactUs";
+import Testimonials from "./Pages/Review/Testimonials";
+import Doctors from "./Pages/Doctor/Doctors";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
+        <Route path="contact" element={<ContactUs></ContactUs>} />
+        <Route path="review" element={<Testimonials></Testimonials>} />
+        <Route path="doctor" element={<Doctors></Doctors>} />
         <Route
           path="appointment"
           element={

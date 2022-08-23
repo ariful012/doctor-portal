@@ -17,13 +17,20 @@ const MakeAppointment = () => {
       <div className="flex-1 px-5">
         <h3 className="text-xl text-primary font-bold">Appointment</h3>
         <h2 className="text-3xl text-white py-5">Make an Appointment Today</h2>
-        <p className="text-white pb-5">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente
-          earum ab cupiditate autem accusantium expedita sequi, temporibus, aut
-          illo doloribus quaerat explicabo, assumenda consectetur est vel ad sed
-          maiores doloremque consequatur. Amet consequuntur quibusdam autem,
-          quod maxime qui itaque quaerat.
-        </p>
+        <h4 className="text-xl text-white">1. Go Appointment page. </h4>
+        <h4 className="text-xl text-white ">
+          2. Choose the subject you need to discuss and click Book Appointment.{" "}
+        </h4>
+        <h4 className="text-xl text-white ">
+          3. Pick a time sloat from the options available.
+        </h4>
+        <h4 className="text-xl text-white ">4. Enter your phone number.</h4>
+        <h4 className="text-xl text-white ">
+          5. On the bottom of the screen click submit button.
+        </h4>
+        <h4 className="text-xl text-white  mb-5">
+          6. You're Appointment Done!
+        </h4>
         <PrimaryButton>Get Started</PrimaryButton>
       </div>
     </section>
