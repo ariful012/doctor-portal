@@ -23,7 +23,7 @@ const Info = () => {
         cardTitle="Contact Us"
         bgClass="bg-gradient-to-r from-secondary to-primary"
         img={phone}
-        text=" +8801832549198"
+        text=" +8801888796740"
       ></InfoCard>
     </div>
   );

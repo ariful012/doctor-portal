@@ -18,9 +18,9 @@ const Footer = () => {
             <p>Address:</p>
             <p>Mirpur 10, Dhaka 1216</p>
             <p>Email:</p>
-            <p>ariful25-013@diu.edu.bd</p>
+            <p>ariful25-012@diu.edu.bd</p>
             <p>Phone:</p>
-            <p>+8801832549198</p>
+            <p>+8801888796740</p>
             <p>Opening Hours:</p>
             <p>10:00 AM to 08:00 PM</p>
           </div>
