@@ -7,7 +7,7 @@ import Loading from "../Shared/Loading";
 import CheckoutForm from "./CheckoutForm";
 
 const stripePromise = loadStripe(
-  "pk_test_51LXPYrEzx0NU0Ucx5sGe06I9MHsjiacxL8cyo4aGODx3u7jrwg8WwIPhyLbGIt2p8DTTOT6LIPPt8akXALZwekv700WSn5eQEE"
+  "pk_test_51LWPqkLyNPvgvMH7VrQaYHtJXJRhr5A6QCcLUhb7OyXXrBYFLsYepyFQXENKzGUtPLuDdk3kb9ymcVZgcERjGaHj00clO2zUa5"
 );
 
 const Payment = () => {
